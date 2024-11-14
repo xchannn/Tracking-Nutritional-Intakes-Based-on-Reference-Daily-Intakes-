@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>each demo</title>
+    <style>
+      div {
+        color: red;
+        text-align: center;
+        cursor: pointer;
+        font-weight: bolder;
+        width: 300px;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+  </head>
+  <body>
+    <div id="name1">Click here</div>
+    <div id="name2">to iterate through</div>
+    <div id="name3">these divs.</div>
+
+    <script>
+      $(document.body).click(function () {
+        var x = 1;
+        while (x < 3) {
+          var name = "#name" + x;
+          $(name).each(function (i) {
+            this.append("sad");
+          });
+          x = x + 1;
+        }
+      });
+    </script>
+  </body>
+</html>

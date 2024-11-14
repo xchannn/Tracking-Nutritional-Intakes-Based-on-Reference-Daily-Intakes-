@@ -1,0 +1,103 @@
+body 
+	{
+		font-family: Lucida Console;
+		background-image: url("assets/dark.png");
+		color: white;
+		border: 1px solid white;
+	}
+
+div
+	{
+		background-color: black;
+		padding: 15px;
+		border: 1px solid white;
+		width: 100%;
+		height: 100%;
+	}
+
+#top
+	{
+		width: 100%;
+		min-height: 10%;
+		text-align: center;
+		/* border: 1px solid red; */
+	}
+	
+#middlegroup
+	{
+		position: relative;
+		padding: 0px;
+		border: 1px solid white;
+		width: 100%;
+	}
+	
+#left
+	{
+		float: left;
+		height: 80vh;
+		overflow: auto;	
+		/* border: 1px solid orange; */
+	}
+
+#center
+	{
+		float: right;
+		height: 80vh;
+		overflow: auto;
+		/* border: 1px solid yellow; */
+	}
+
+#bottom
+	{
+		width: 100%;
+		overflow: auto;
+	}
+
+a	
+	{
+		color: white;
+		text-decoration: none;
+		border: 2px solid white;
+	}
+
+table, th, td
+	{
+		border: 1px solid white;
+	}
+	
+@media screen and (min-width: 1000px)  /* Landscape */
+{
+	body 
+	{
+		font-size: 15px;
+	}
+	
+	#left
+	{
+		width: 15%;
+	}
+	
+	#center
+	{
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 999px) /* Portrait */
+{
+	body 
+	{
+		font-size: 30px;
+	}
+	
+	#left
+	{
+		width: 20%;
+		font-size: 20px;
+	}
+	
+	#center
+	{
+		width: 80%;
+	}
+}

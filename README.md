@@ -2,14 +2,6 @@
 
 This project is designed to help users track their nutritional intake based on the recommended daily intakes (RDIs). The system calculates and analyzes the nutrients consumed to help users maintain a balanced diet.
 
-## Tech Stack :computer:
-
-- **PHP** - Backend Logic (67.5%) :computer:
-- **JavaScript** - Interactive Features (19.7%) :zap:
-- **Hack** - Performance Enhancements (7.1%) :rocket:
-- **HTML** - Structure of Web Pages (3.0%) :page_facing_up:
-- **CSS** - Styling and Layout (2.7%) :art:
-
 ## Features :star2:
 
 - :apple: Track daily food intake and calculate nutrient values.
@@ -64,7 +56,7 @@ Ensure you have the following installed:
 After setting up, users can:
 
 - Log daily food consumption and view nutrient breakdown. :chart_with_upwards_trend:
-- Generate detailed reports to track progress toward daily goals. :notebook_with_decorative_cover:
+- Generate daily meal recommendations  to track progress toward daily goals. :notebook_with_decorative_cover:
 
 ## Contributing :handshake:
 

@@ -6,8 +6,6 @@ This project is designed to help users track their nutritional intake based on t
 
 - :apple: Track daily food intake and calculate nutrient values.
 - :clipboard: View personalized nutritional reports and analytics.
-- :chart_with_upwards_trend: Monitor progress toward daily intake goals.
-- :memo: Maintain a history of daily food logs for reference.
 - :busts_in_silhouette: User-friendly interface for adding and managing food entries.
 
 ## Installation :package:

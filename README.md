@@ -1,6 +1,6 @@
 # Tracking Nutritional Intakes Based on Reference Daily Intakes
 
-This project is designed to help users track their nutritional intake based on the recommended daily intakes (RDIs). The system calculates and analyzes the nutrients consumed to help users maintain a balanced diet.
+This project is designed to help users track their Nutritional Intake Based on the Recommended Daily Intakes (RDIs). The system calculates and analyzes the nutrients consumed to help users maintain a balanced diet.
 
 ## Features :star2:
 

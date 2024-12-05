@@ -18,7 +18,7 @@ Ensure you have the following installed:
 
 - PHP >= 8.0 :package:
 - MySQL or any compatible database :floppy_disk:
-- Apache or Nginx server :triangular_flag_on_post:
+- Apache :triangular_flag_on_post:
 
 ### Steps :arrow_down:
 
